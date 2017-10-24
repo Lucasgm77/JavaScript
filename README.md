@@ -61,6 +61,39 @@ IIFE significa uma “Função anônima auto executável” ou “Função Imedi
 		
 6 - Criação de funções (ES5/ES6)?
 
+Uma função JavaScript é um bloco de código projetado para executar uma tarefa específica. Uma função é executada quando "algo" o invoca (chama).
+Exemplo função ES5:
+	function myFunction(p1, p2) {
+    		return p1 * p2;   // A função retorna o produto de p1 e p2
+		}
+Exemplo função ES6:
+	myFunction(p1, p2)=> p1 * p2;
+
+Sintaxe
+ES5
+Uma função JavaScript é definido com a function como palavra-chave, seguido por um nome, seguido de parênteses ().
+Nomes de funções pode conter letras, números, sublinhados e cifrões (mesmas regras variáveis).
+Os parênteses podem incluir nomes de parâmetros separados por vírgulas:( parameter1, parameter2, ...)
+O código a ser executado, pela função, é colocado dentro de chaves: {}
+
+	function nome(parameter1, parameter2, parameter3) {
+ 	   código a ser executado
+	}
+
+Dentro da função, os argumentos (parâmetros) comportam-se como variáveis locais.
+Uma função é o mesmo que um procedimento ou uma sub-rotina, em outras linguagens de programação.
+ES6
+	([param], [param]) => {
+ 	  statements
+	}	
+	param => expression
+
+Invocação da função
+O código dentro da função será executado quando "algo" invoca a função:
+•	Quando ocorre um evento (quando um usuário clica em um botão)
+•	Quando ela é invocada (chamado) a partir do código JavaScript
+•	Automaticamente (auto invocado)
+
 7 - Arrays?
 
 8 - CommonJS?
