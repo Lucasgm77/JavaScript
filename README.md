@@ -50,13 +50,14 @@ O interesse na linguagem se refletiu na criação de uma imensa diversidade de b
 •	Electron: Framework para criação de aplicações desktop multiplataforma.
 
 5 - Instanciação de variaveis?
-	Hoisting, como já citado antes, é um comportamento do JavaScript de mover declarações para o topo de um escopo (o escopo global ou da função em que se encontra). Em JavaScript, funções e variáveis são hoisted (ou “levados ao topo”). Isso significa que você pode usar variável e função antes mesmo de tê-las declaradas.
+
+Hoisting, como já citado antes, é um comportamento do JavaScript de mover declarações para o topo de um escopo (o escopo global ou da função em que se encontra). Em JavaScript, funções e variáveis são hoisted (ou “levados ao topo”). Isso significa que você pode usar variável e função antes mesmo de tê-las declaradas.
 	
-	Uma closure, como já mencionado antes, é o escopo criado quando uma função é declarada que permite à função acessar e manipular variáveis externas a ela. Em outras palavras, clousers permitem quem uma função acesse todas as variáveis, assim como outras funções, que estão em escopo quando ela é declarada.
+Uma closure, como já mencionado antes, é o escopo criado quando uma função é declarada que permite à função acessar e manipular variáveis externas a ela. Em outras palavras, clousers permitem quem uma função acesse todas as variáveis, assim como outras funções, que estão em escopo quando ela é declarada.
 	
-	Todas as variáveis ou funções declaradas fora de uma função estarão disponíveis para todo o código JavaScript na página, se esse código é dentro de uma função ou de outra forma, nós chamamos isso de âmbito global. Já Parâmetros de função são semelhantes às variáveis, eles têm um âmbito local, e, portanto, só pode ser acessado de dentro da função.
+Todas as variáveis ou funções declaradas fora de uma função estarão disponíveis para todo o código JavaScript na página, se esse código é dentro de uma função ou de outra forma, nós chamamos isso de âmbito global. Já Parâmetros de função são semelhantes às variáveis, eles têm um âmbito local, e, portanto, só pode ser acessado de dentro da função.
 	
-	IIFE significa uma “Função anônima auto executável” ou “Função Imediatamente Executável”, quando usamos isso queremos criar um escopo no JavaScript para que as variáveis dentro dela não poluam o escopo global, evitando possíveis conflitos de variáveis ou funções com o mesmo nome.
+IIFE significa uma “Função anônima auto executável” ou “Função Imediatamente Executável”, quando usamos isso queremos criar um escopo no JavaScript para que as variáveis dentro dela não poluam o escopo global, evitando possíveis conflitos de variáveis ou funções com o mesmo nome.
 		
 6 - Criação de funções (ES5/ES6)?
 
@@ -67,6 +68,21 @@ O interesse na linguagem se refletiu na criação de uma imensa diversidade de b
 9 - AngularJS / JQuery
 
 10 - PWA?
+
+   Progressive Web Apps está ligado intimamente a experiência do usuário para um maior e melhor alcance das possibilidades da web. A presença mobile em nossas vidas é cada vez mais comum e acelerada, e no Brasil isso é bem expressivo.
+PWA além de ter a experiência do usuário como foco central, é baseada em três pilares:
+
+•	Confiável;
+•	Rápido;
+•	Atraente.
+
+   Uma aplicação web confiável é aquela em que você sempre pode contar, mesmo quando não há conexão com a internet. Para que tenhamos essa confiança e garantia, é utilizado um proxy escrito em JavaScript que roda do lado do cliente e que é responsável por controlar o cachê e as requisições do seu navegador de internet. Com o PWA recursos chaves são pré-cacheados e isso elimina a dependência de rede disponível para seu carregamento. Com isso seus usuários terão uma experiência de carregamento instantâneo e confiável.
+
+  Usuários de internet são ansiosos, não tem paciência e seu site precisa carregar rápido. Ponto. Mas no conceito de Progressive Web Apps, a questão de ser rápido precisa ir além do carregamento. É necessário, também, uma resposta ágil às interações do usuário como animações e rolagens fluídas.
+Ser rápido é ter um carregamento de página em até três segundos – 53% dos usuários abandonam as páginas após esse período – e interações fluídas, inteligentes e objetivas.
+
+   PWA transforma os sites em experiências muito próximas dos aplicativos mobile através de um arquivo chamado Web App Manifest que fica hospedado junto ao seu site. Esse arquivo define como o site será carregado, a aparência que terá, o botão a ser utilizado na tela inicial do celular do usuário e trata as notificações push. Um aplicativo tradicional requer o seu download nas apps stores, com PWA não precisamos dessas lojas e os sites se tornam instaláveis. Além disso, especificamos o ícone e a página a ser carregada quando o ícone for tocado. Com Progressive Web Apps temos o controle da aparência da interface, determinando a exibição em tela normal ou full screen, usar a orientação retrato ou paisagem e outras possibilidades.
+
 
 
 
