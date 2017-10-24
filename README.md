@@ -117,6 +117,13 @@ Elementos Array são simplesmente propriedades de objetos e são acessados da me
 
 8 - CommonJS?
 
+A API CommonJS preencherá essa lacuna definindo APIs que atendam muitas necessidades comuns de aplicativos, fornecendo uma biblioteca padrão tão rica quanto a de Python, Ruby e Java. A intenção é que um desenvolvedor de aplicativos possa escrever um aplicativo usando as API CommonJS e, em seguida, executar esse aplicativo em diferentes intérpretes de JavaScript e ambientes de host. Com os sistemas compatíveis com CommonJS, você pode usar o JavaScript para escrever:
+	•Aplicativos de JavaScript do lado do servidor
+	•Ferramentas de linha de comando
+	•Aplicativos baseados em GUI da área de trabalho
+	•Aplicações híbridas (Titanium, Adobe AIR)
+
+
 9 - AngularJS / JQuery
 
 10 - PWA?
