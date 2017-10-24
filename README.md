@@ -126,6 +126,12 @@ A API CommonJS preencherá essa lacuna definindo APIs que atendam muitas necessi
 
 9 - AngularJS / JQuery
 
+AngularJS é um framework JavaScript open-source, que auxilia na execução de single-page applications. Seu objetivo é aumentar aplicativos que podem ser acessados por um navegador web, foi construído sob o padrão model-view-view-model (MVVM), em um esforço para facilitar tanto o desenvolvimento quanto o teste dos aplicativos.
+A biblioteca lê o HTML que contém tags especiais e então executa a diretiva na qual está tag pertence, e faz a ligação entre a apresentação e seu modelo, representado por variáveis JavaScript comuns. O valor dessas variáveis JavaScript podem ser setadas manualmente, ou via um recurso JSON estático ou dinâmico.
+jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente Usada por cerca de 77% dos 10 mil sites mais visitados do mundo, jQuery é a mais popular das bibliotecas JavaScript.
+jQuery é uma biblioteca de código aberto. A sintaxe do jQuery foi desenvolvida para tornar mais simples a navegação do documento HTML, a seleção de elementos DOM, criar animações, manipular eventos, desenvolver aplicações AJAX e criação de plugins sobre ela. Tais facilidades permitem aos desenvolvedores criarem camadas de abstração para interações de baixo nível de modo simplificado em aplicações web dinâmicas de grande complexidade.
+
+
 10 - PWA?
 
    Progressive Web Apps está ligado intimamente a experiência do usuário para um maior e melhor alcance das possibilidades da web. A presença mobile em nossas vidas é cada vez mais comum e acelerada, e no Brasil isso é bem expressivo.
