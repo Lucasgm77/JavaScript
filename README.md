@@ -50,7 +50,14 @@ O interesse na linguagem se refletiu na criação de uma imensa diversidade de b
 •	Electron: Framework para criação de aplicações desktop multiplataforma.
 
 5 - Instanciação de variaveis?
+	Hoisting, como já citado antes, é um comportamento do JavaScript de mover declarações para o topo de um escopo (o escopo global ou da função em que se encontra). Em JavaScript, funções e variáveis são hoisted (ou “levados ao topo”). Isso significa que você pode usar variável e função antes mesmo de tê-las declaradas.
 	
+	Uma closure, como já mencionado antes, é o escopo criado quando uma função é declarada que permite à função acessar e manipular variáveis externas a ela. Em outras palavras, clousers permitem quem uma função acesse todas as variáveis, assim como outras funções, que estão em escopo quando ela é declarada.
+	
+	Todas as variáveis ou funções declaradas fora de uma função estarão disponíveis para todo o código JavaScript na página, se esse código é dentro de uma função ou de outra forma, nós chamamos isso de âmbito global. Já Parâmetros de função são semelhantes às variáveis, eles têm um âmbito local, e, portanto, só pode ser acessado de dentro da função.
+	
+	IIFE significa uma “Função anônima auto executável” ou “Função Imediatamente Executável”, quando usamos isso queremos criar um escopo no JavaScript para que as variáveis dentro dela não poluam o escopo global, evitando possíveis conflitos de variáveis ou funções com o mesmo nome.
+		
 6 - Criação de funções (ES5/ES6)?
 
 7 - Arrays?
