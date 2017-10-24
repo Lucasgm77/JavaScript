@@ -96,6 +96,25 @@ O código dentro da função será executado quando "algo" invoca a função:
 
 7 - Arrays?
 
+Tradicionalmente, um Array reserva uma alocação contínua de memória de tamanho predefinido. No JavaScript, esse não é o caso. Um Array no JavaScript é simplesmente um objeto com um construtor único, com uma sintaxe literal e com um conjunto adicional de propriedades e de métodos herdados de um protótipo de Array. Isso significa fazer um pequeno sacrifício de performance, mais do que compensado pela facilidade de uso e pelo poder de seus utilitários.
+No JavaScript, sempre que há uma sintaxe literal para criação de  objetos
+
+	//cria o objeto
+	var a = [];
+	// existem duas forma para atribuir dados ao Array
+	a[0] = "Bob";
+	a[1] = "Mary";
+	a[2] = "Joe";
+	//ou push
+	a.push("Jane");
+	a.push("Carlos");
+
+também, podemos usar a sintaxe new Constructor. Fora a óbvia desvantagem de 5-9 toques adicionais, há um aspecto mais sério no que diz respeito à ambiguidade: 
+	var a = new Array(8);
+Um Array pode conter qualquer objeto do tipo primitivo. Dados de tipos diferentes podem coexistir no mesmo Array. 
+Elementos Array são simplesmente propriedades de objetos e são acessados da mesma forma que outras propriedades de objetos. 
+
+
 8 - CommonJS?
 
 9 - AngularJS / JQuery
